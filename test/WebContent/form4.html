@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="register.jsp" method="post">
+      <fieldset>
+        <legend>필수 사항</legend>
+        <div>
+        	<input type="hidden" name="age" value="3" />
+        </div>
+          <p>
+          <label for="name">이름</label>
+          <input type="text" name="name" id="name" />
+          </p>
+        
+        <p>
+          <label for="">이메일</label>
+          <input type="text" />
+        </p>
+        <p>
+          <label for="">비밀번호</label>
+          <input type="text" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>부가 입력 사항</legend>
+        <div>
+          <p>거주지를 선택해 주세요</p>
+          <select name="" id="">
+            <option value="seoul">서울시</option>
+            <option value="busan">부산시</option>
+            <option value="jeju">제주시</option>
+          </select>
+        </div>
+        <div>
+          <label for="">취미</label>
+          <input type="checkbox" name="hobby" id="" />영화감상
+          <input type="checkbox" name="hobby" id="" />독서
+          <input type="checkbox" name="hobby" id="" />운동
+        </div>
+        <div>
+          <label for="">성별</label>
+          <input type="radio" name="gender" id="" />남성
+          <input type="radio" name="gender" id="" />여성
+        </div>
+        <div>
+          <label for="">사진을 등록해 주세요</label>
+          <input type="file" name="" id="" />
+        </div>
+        <div>
+          <p>방문 경로를 말씀해 주세요</p>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+      </fieldset>
+      <input type="button" value="회원가입" />
+      <input type="button" value="재작성" />
+      <input type="submit" value="전송" />
+    </form>
+  </body>
+</html>
